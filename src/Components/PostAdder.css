@@ -1,0 +1,226 @@
+.maindiv{
+    min-height: 100vh;
+    background:#202020;
+
+}
+.postAdderBG{
+    background:#202020;
+    width:100%;
+    padding-bottom:2vh;
+    padding-top:5vh;
+}
+.postBG{
+    background:#202020;
+    width:100%;
+}
+.postAddercontroller{
+    width:50%;
+}
+.postAdder{
+    z-index: 2;
+    border-radius: 8px;
+    padding:2vh;
+    color:lightgray;
+    background:#303030;
+}
+
+.btnPostAdder{
+    border:none;
+    outline:none;
+    overflow-y: visible;
+    font-size:2vh;
+    color:lightgrey;
+    background:#404040;
+    border-radius: 20px;
+    padding: 2vh;
+    resize: both;
+    max-height: 50vh;
+    width:100%;
+}
+.inline{
+    padding:2vh;
+    display:flex;
+    align-items: center;
+    margin:2vh 0;
+}
+.avatar{
+    padding:0.5vh;
+    margin-right:2vh;
+}
+.lightLine{
+    color:#606060;
+    border-color:#606060;
+    margin:2vh 0;
+}
+
+
+.btnGif{
+    color:lightgray;
+    border-radius: 10px;
+    padding:1vh;
+    width:fit-content;
+    cursor:pointer;
+}
+.btnGif:hover{
+    background:#404040;
+}
+
+.searchGif{
+    color:lightgray;
+    border-radius: 999px;
+    padding:1vh;
+    width:96%;
+    border:none;
+    outline:none;
+    background:#404040;
+    margin:auto auto 2vh auto;
+}
+
+.selectGif{
+    height:50vh;
+    overflow-y: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.selectGif div,.selectGif div img{
+    width:100%;
+    cursor:pointer;
+}
+
+.gifheading{
+    color:#fff;
+    margin:auto;
+}
+
+.searchicon{
+    margin-left:1vh;
+    width:100%;
+    background:none;
+    border:none;
+    font-size: 3vh;
+    outline:none;
+    color:#fff;
+}
+.postAdderPopupContainer{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+}
+
+.searchgifcontainer{
+    z-index: 5;
+    display:flex;
+    flex-direction: column;
+    background:#202020;
+    position:fixed;
+    max-width: 60vh;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+.postform{
+    padding:2vh;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:lightgray;
+    width:50vh;
+    display: flex;
+    flex-direction: column;
+    background:#303030;
+}
+.MuiInputBase-input{
+    color:lightgray!important;
+    background:#404040!important;
+    border-radius: 10px;
+    padding:2vh!important;
+    outline:none!important;
+}
+
+.MuiTextField-root{
+    border:0px;
+}
+.btnonForm{
+    margin-top: 2vh!important;
+}
+
+.submitbtnonForm{
+    margin-top: 2vh!important;
+    background:#404040
+}
+
+.contentcontainer{
+    width:100%;
+    max-height: 50vh;
+    overflow-y: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.post{
+    width:50%;
+    background:#303030;
+    border-radius: 8px;
+    color:lightgray;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:2vh !important;
+
+}
+
+.inlineitem{
+    display:flex;
+    align-items:center;
+    padding:2vh;
+}
+
+
+.postImageFrame{
+    width:100%;
+    height:50vh;
+    
+}
+.postImageFrame img{
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+.postmessage{
+    padding:2vh;
+}
+
+
+.datesection{
+    display:flex;
+    padding:2vh;
+}
+
+.datesection p{
+    margin-left:auto;
+    display:flex;
+}
+
+
+
+@media (max-width:900px){
+    
+    .searchgifcontainer{
+        width:95%;
+    }
+    .postAddercontroller{
+        width:95%;
+    }
+    .post{
+        width:50%;
+    }
+    
+}
