@@ -17,7 +17,9 @@ const Posts = ({posts}) => {
                     </div>
                     <br/>
                     <div className='postmessage'>
+                    <p>
                     {post.message}
+                    </p>
                     </div>
                     <div className='postImageFrame'>
                     <img src={post.img} />

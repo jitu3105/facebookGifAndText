@@ -195,9 +195,13 @@
 }
 
 .postmessage{
-    padding:2vh;
+    padding:1vh;
+    display:flex;    
 }
 
+.postmessage p{
+    margin-right: auto;
+}
 
 .datesection{
     display:flex;
@@ -220,7 +224,7 @@
         width:95%;
     }
     .post{
-        width:50%;
+        width:95%;
     }
     
 }
